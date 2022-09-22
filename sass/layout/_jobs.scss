@@ -1,5 +1,10 @@
 .jobs {
+  @extend %section;
   padding-top: 0;
+}
+
+.jobs__list {
+  @include card-set($cardName: 'jobs__item');
 }
 
 .jobs__item {

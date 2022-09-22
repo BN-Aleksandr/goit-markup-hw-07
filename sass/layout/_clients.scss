@@ -1,8 +1,14 @@
+.clients {
+  @extend %section;
+}
+
 .clients__list {
-  --items: 6;
+  @include card-set($items: 6, $cardName: 'clients__item');
 }
 
 .clients__link {
+  @extend %link;
+
   display: flex;
   height: 92px;
   color: var(--client-link-cl);

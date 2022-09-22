@@ -1,12 +1,13 @@
 // utils styles
-@import './utils/vars';
-@import './utils/visually-hidden';
+@import './utils/variables';
+@import './utils/placeholders';
+@import './utils/mixins';
+@import './utils/backdrop';
 
 // base styles
 @import './base/reset';
 @import './base/container';
 @import './base/base';
-@import './base/card-set';
 
 //  layout styles
 @import './layout/header';
@@ -17,6 +18,8 @@
 @import './layout/team';
 @import './layout/clients';
 @import './layout/footer';
+@import './layout/portfolio';
+@import './layout/modal';
 
 // component styles
 @import './components/logo';
@@ -26,3 +29,6 @@
 @import './components/address';
 @import './components/socials';
 @import './components/subscribe-form';
+@import './components/filters';
+@import './components/portfolio-list';
+@import './components/call-back-form';
