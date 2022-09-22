@@ -1,0 +1,34 @@
+.address {
+  font-style: normal;
+}
+
+.address__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.address__google-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color-white);
+  transition: color var(--transition-parameters);
+
+  &:focus,
+  &:hover {
+    color: var(--accent-color);
+  }
+}
+
+.address__link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color-gray-alpfa);
+  transition: color var(--transition-parameters);
+
+  &:focus,
+  &:hover {
+    color: var(--accent-color);
+  }
+}
