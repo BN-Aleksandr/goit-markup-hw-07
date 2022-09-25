@@ -2,7 +2,6 @@
 @import './utils/variables';
 @import './utils/placeholders';
 @import './utils/mixins';
-@import './utils/backdrop';
 
 // base styles
 @import './base/reset';
@@ -32,3 +31,4 @@
 @import './components/filters';
 @import './components/portfolio-list';
 @import './components/call-back-form';
+@import './components/backdrop';
